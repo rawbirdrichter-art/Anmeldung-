@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freunde des Mary Ward Privatgymnasiums & ORG St. Pölten – Anmeldung</title>
+  <style>
+    :root {
+      --mw-blue: #003366;
+      --mw-blue-dark: #002244;
+      --mw-accent-gold: #c59b27;
+      --mw-text: #2c3e50;
+      --mw-bg: #f4f6f9;
+      --mw-border: #dcdfe6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      color: var(--mw-text);
+      background-color: var(--mw-bg);
+      line-height: 1.6;
+    }
+    .top-bar {
+      background-color: var(--mw-blue-dark);
+      color: #cbd5e1;
+      font-size: 12px;
+      padding: 8px 20px;
+      text-align: center;
+    }
+    header.site-header {
+      background-color: #ffffff;
+      border-bottom: 3px solid var(--mw-blue);
+      padding: 24px 20px;
+      text-align: center;
+    }
+    .brand-title {
+      font-family: "Georgia", "Times New Roman", serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--mw-blue);
+      text-transform: uppercase;
+    }
+    .brand-sub {
+      font-size: 15px;
+      color: var(--mw-accent-gold);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    .page-wrapper {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+    .hero-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--mw-border);
+      border-left: 6px solid var(--mw-blue);
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .hero-card h1 {
+      font-family: "Georgia", serif;
+      font-size: 22px;
+      color: var(--mw-blue);
+      margin-bottom: 10px;
+    }
+    .form-container {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--mw-border);
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    }
+    .form-header {
+      background: var(--mw-blue);
+      color: #ffffff;
+      padding: 18px 24px;
+    }
+    .form-header h2 { font-family: "Georgia", serif; font-size: 20px; }
+    form { padding: 24px; }
+    .section-title {
+      font-weight: 700;
+      color: var(--mw-blue);
+      margin: 18px 0 10px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+    }
+    .radio-card {
+      display: block;
+      background: #f8fafc;
+      border: 1px solid var(--mw-border);
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .radio-card input { margin-right: 8px; accent-color: var(--mw-blue); }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 14px;
+    }
+    @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+    .form-group { display: flex; flex-direction: column; }
+    .form-group.full { grid-column: 1 / -1; }
+    label { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+    .req { color: #b91c1c; }
+    input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+      height: 40px;
+      padding: 0 10px;
+      border: 1px solid var(--mw-border);
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .consent-box {
+      margin: 20px 0;
+      font-size: 12px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      background: #f8fafc;
+      padding: 12px;
+      border-radius: 4px;
+    }
+    .btn-submit {
+      background-color: var(--mw-blue);
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .btn-submit:hover { background-color: var(--mw-blue-dark); }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #64748b;
+      background: #ffffff;
+      border-top: 1px solid var(--mw-border);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    Mary Ward Privatgymnasium & Oberstufenrealgymnasium St. Pölten
+  </div>
+
+  <header class="site-header">
+    <div class="brand-title">Mary Ward Schulen</div>
+    <div class="brand-sub">Freunde des Mary Ward Privatgymnasiums und ORG St. Pölten</div>
+  </header>
+
+  <div class="page-wrapper">
+    <div class="hero-card">
+      <h1>In Verbindung bleiben. Zukunft gestalten.</h1>
+      <p>
+        Herzlich willkommen beim Absolventenverein! Bitte nutzen Sie dieses Online-Formular für Ihren Neubeitritt oder zur Bekanntgabe geänderter Kontaktdaten.
+      </p>
+    </div>
+
+    <div class="form-container">
+      <div class="form-header">
+        <h2>Beitrittserklärung / Adressenänderung</h2>
+      </div>
+
+      <!-- HIER DIE ZIEL-ADRESSE AUS SCHRITT 1 EINTRAGEN -->
+      <form action="https://formspree.io/f/mkjgblay" method="POST">
+        
+        <div class="section-title">Art der Mitgliedschaft</div>
+        <label class="radio-card">
+          <input type="radio" name="Mitgliedsart" value="Ordentliches Mitglied" checked>
+          <strong>Ordentliches Mitglied</strong> (EUR 20,– / Jahr)
+        </label>
+        <label class="radio-card">
+          <input type="radio" name="Mitgliedsart" value="Schüler / Student (beitragsfrei)">
+          <strong>Schüler / Student</strong> (bis 5 Jahre nach der Matura beitragsfrei!)
+        </label>
+        <label class="radio-card">
+          <input type="radio" name="Mitgliedsart" value="Adressenänderung">
+          <strong>Ich bin bereits Mitglied</strong> – Adressenänderung
+        </label>
+
+        <div class="section-title">Persönliche Daten</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Anrede</label>
+            <select name="Anrede">
+              <option value="Frau">Frau</option>
+              <option value="Herr">Herr</option>
+              <option value="Divers">Divers</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Titel (optional)</label>
+            <input type="text" name="Titel" placeholder="z. B. Mag., DI, Dr.">
+          </div>
+
+          <div class="form-group">
+            <label>Vorname <span class="req">*</span></label>
+            <input type="text" name="Vorname" required>
+          </div>
+
+          <div class="form-group">
+            <label>Familienname <span class="req">*</span></label>
+            <input type="text" name="Familienname" required>
+          </div>
+
+          <div class="form-group">
+            <label>Geburtsname (falls abweichend)</label>
+            <input type="text" name="Geburtsname">
+          </div>
+
+          <div class="form-group">
+            <label>Maturajahrgang & Klasse <span class="req">*</span></label>
+            <input type="text" name="Maturajahrgang" placeholder="z. B. 2004 oder 8A" required>
+          </div>
+
+          <div class="form-group">
+            <label>Geburtsdatum</label>
+            <input type="date" name="Geburtsdatum">
+          </div>
+
+          <div class="form-group">
+            <label>E-Mail-Adresse <span class="req">*</span></label>
+            <input type="email" name="Email" required>
+          </div>
+
+          <div class="form-group">
+            <label>Telefon / Mobilnummer</label>
+            <input type="tel" name="Telefon">
+          </div>
+
+          <div class="form-group">
+            <label>Straße & Hausnummer <span class="req">*</span></label>
+            <input type="text" name="Strasse" required>
+          </div>
+
+          <div class="form-group full">
+            <label>PLZ & Ort <span class="req">*</span></label>
+            <input type="text" name="PLZ_Ort" placeholder="3100 St. Pölten" required>
+          </div>
+        </div>
+
+        <div class="consent-box">
+          <input type="checkbox" required id="consent">
+          <label for="consent">
+            Ich erkläre meinen Beitritt zum Verein „Freunde des Mary Ward Privatgymnasiums und Oberstufenrealgymnasiums St. Pölten“ (bzw. melde Datenänderungen) und stimme der vereinsinternen Verarbeitung meiner Kontaktdaten zu. <span class="req">*</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn-submit">Anmeldung absenden</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>Schneckgasse 3, 3100 St. Pölten</strong> | E-Mail: freunde@marywardschulen.at</p>
+    <p style="margin-top: 4px;">Bankverbindung: Sparkasse NÖ Mitte West AG | IBAN: AT63 2025 6000 0090 5158</p>
+  </footer>
+
+</body>
+</html>
